@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Trendyol.LinkConverter.Caching\Trendyol.LinkConverter.Caching.csproj" />
+    <ProjectReference Include="..\Trendyol.LinkConverter.Core\Trendyol.LinkConverter.Core.csproj" />
+  </ItemGroup>
+
+</Project>
